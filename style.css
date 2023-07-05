@@ -9,13 +9,14 @@ H1{
 }
 section{
     display: flex;
+    margin-battom: 400px;
 }
 .half-width{
     width: 50%;
     padding-left: 2%;
 }
 .half-width img{
-    width: 50%;
+    width: 40%;
 }
 .link-button{
     text-decoration: none;
@@ -26,6 +27,12 @@ section{
     color: white;
     font-width: 700; 
 }
-.top.jpg{
-    background-image: url(images/top.jpg);
+.welcome-to{
+    background-image: url(image/top-banner.jpg);   
 }
+.dream-big{
+background-image: url(image/gold-banner.jpg);
+background-repeat: no-repeat;
+background-position: right ;
+}
+
