@@ -7,7 +7,7 @@ H1{
 .orange-color{
     color:orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-battom: 400px;
 }
@@ -34,5 +34,21 @@ section{
 background-image: url(image/gold-banner.jpg);
 background-repeat: no-repeat;
 background-position: right ;
+}
+.experience-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+.experience-area{
+    background-image: url(banners.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+text-align: center;
 }
 
